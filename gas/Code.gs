@@ -12,7 +12,7 @@
  */
 
 // GANTI INI DENGAN ID SPREADSHEET ANDA
-const SPREADSHEET_ID = '1-o0sHPnNiJkBQrM2ZZlotVXwZiEy2lTu-ShcvXfbvxo';
+const SPREADSHEET_ID = '1iSMUBc8z6D4si7fT-brAFCuBW1FyE9cJobIhyAdg-0w';
 
 // Nama sheet untuk setiap jenis data
 const SHEET_NAMES = {
