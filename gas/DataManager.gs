@@ -20,18 +20,18 @@ function recordBorrowing(data) {
     
     // Prepare row data
     const rowData = [
-      borrowId,                           // ID
+      borrowId,                    // ID
       new Date().toLocaleString('id-ID'), // Timestamp
-      data.borrowerName || '',            // Nama Peminjam
-      data.eventName || '',               // Nama Acara
-      data.equipmentType || '',           // Jenis Alat
-      data.equipmentName || '',           // Nama Alat
-      data.pickupDate || '',              // Tanggal Pengambilan
-      data.pickupTime || '',              // Waktu Pengambilan
-      data.expectedReturnDate || '',      // Perkiraan Tanggal Kembali
-      data.borrowCondition || '',         // Kondisi Saat Dipinjam
-      data.borrowNotes || '',             // Catatan
-      'DIPINJAM',                         // Status
+      data.borrowerName || '',     // Nama Peminjam
+      data.eventName || '',        // Nama Acara
+      data.equipmentType || '',    // Jenis Alat
+      data.equipmentName || '',    // Nama Alat
+      data.pickupDate || '',       // Tanggal Pengambilan
+      data.pickupTime || '',       // Waktu Pengambilan
+      data.expectedReturnDate || '', // Perkiraan Tanggal Kembali
+      data.borrowCondition || '',  // Kondisi Saat Dipinjam
+      data.borrowNotes || '',      // Catatan
+      'DIPINJAM',                  // Status
       Session.getActiveUser().getEmail() || 'System' // User
     ];
     
@@ -69,15 +69,15 @@ function recordReturn(data) {
     
     // Prepare row data
     const rowData = [
-      returnId,                            // ID
-      new Date().toLocaleString('id-ID'),  // Timestamp
-      data.returnBorrowerName || '',       // Nama Peminjam
-      data.returnEquipmentName || '',      // Nama Alat
-      data.returnDate || '',               // Tanggal Pengembalian
-      data.returnTime || '',               // Waktu Pengembalian
-      data.returnCondition || '',          // Kondisi Saat Dikembalikan
-      data.returnNotes || '',              // Catatan Pengembalian
-      'DIKEMBALIKAN',                      // Status
+      returnId,                    // ID
+      new Date().toLocaleString('id-ID'), // Timestamp
+      data.returnBorrowerName || '',  // Nama Peminjam
+      data.returnEquipmentName || '', // Nama Alat
+      data.returnDate || '',          // Tanggal Pengembalian
+      data.returnTime || '',          // Waktu Pengembalian
+      data.returnCondition || '',     // Kondisi Saat Dikembalikan
+      data.returnNotes || '',         // Catatan Pengembalian
+      'DIKEMBALIKAN',                 // Status
       Session.getActiveUser().getEmail() || 'System' // User
     ];
     
