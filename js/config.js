@@ -9,7 +9,7 @@ const CONFIG = {
     GAS_WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbxJDS038rQVGt4hj0-VLCNYtQKbhM2zgdTm6tM9MdI626PFzRtZawShO_ISIaTdQHZqYw/exec',
     
     // Demo mode - set to true for offline demo without Google Apps Script
-    DEMO_MODE: true,
+    DEMO_MODE: false,
     
     // Spreadsheet configuration
     SPREADSHEET_ID: '1iSMUBc8z6D4si7fT-brAFCuBW1FyE9cJobIhyAdg-0w',
