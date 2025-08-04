@@ -6,13 +6,13 @@
 const CONFIG = {
     // Google Apps Script Web App URL
     // Replace this with your actual deployed web app URL
-    GAS_WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbzVz623jcBaN3H5mPsfnwA-0h53JoxP4yXsx14th0ed_3mclsRImaHwm_9-JcHb1qL5tQ/exec',
+    GAS_WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbxJDS038rQVGt4hj0-VLCNYtQKbhM2zgdTm6tM9MdI626PFzRtZawShO_ISIaTdQHZqYw/exec',
     
     // Demo mode - set to true for offline demo without Google Apps Script
     DEMO_MODE: true,
     
     // Spreadsheet configuration
-    SPREADSHEET_ID: '1-o0sHPnNiJkBQrM2ZZlotVXwZiEy2lTu-ShcvXfbvxo',
+    SPREADSHEET_ID: '1iSMUBc8z6D4si7fT-brAFCuBW1FyE9cJobIhyAdg-0w',
     
     // Cache configuration
     CACHE_DURATION: 5 * 60 * 1000, // 5 minutes in milliseconds
