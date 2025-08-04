@@ -144,7 +144,7 @@ const CONFIG = {
 (function validateConfig() {
     if (CONFIG.DEMO_MODE) {
         console.log('🎭 Demo mode enabled - using offline sample data');
-    } else if (CONFIG.GAS_WEB_APP_URL.includes('https://script.google.com/macros/s/AKfycbyUUqCGO4y95fCREUfNXjvkA08k3bmcSrpteshnqkp8YCDZGm8w6jFN3Y8E33PURRnSYA/exec')) {
+    } else if (CONFIG.GAS_WEB_APP_URL.includes('https://script.google.com/macros/s/AKfycbygw1x_Vu3zrx547rnfB2dUodYo12uVSgcSA3AUlnc9AQgt7NxOs6iWAe_2uigoMorr/exec')) {
         console.warn('⚠️ Google Apps Script URL belum dikonfigurasi! Silakan update CONFIG.GAS_WEB_APP_URL di js/config.js');
     }
     
