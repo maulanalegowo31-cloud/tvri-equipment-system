@@ -382,3 +382,4 @@ function getSystemStats() {
   } catch (error) {
     throw new Error(`Failed to get system stats: ${error.message}`);
   }
+}
