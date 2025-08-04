@@ -144,7 +144,7 @@ const CONFIG = {
 (function validateConfig() {
     if (CONFIG.DEMO_MODE) {
         console.log('🎭 Demo mode enabled - using offline sample data');
-    } else if (CONFIG.GAS_WEB_APP_URL.includes('YOUR_SCRIPT_ID_HERE')) {
+    } else if (CONFIG.GAS_WEB_APP_URL.includes('1iSMUBc8z6D4si7fT-brAFCuBW1FyE9cJobIhyAdg-0w')) {
         console.warn('⚠️ Google Apps Script URL belum dikonfigurasi! Silakan update CONFIG.GAS_WEB_APP_URL di js/config.js');
     }
     
