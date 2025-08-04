@@ -6,7 +6,7 @@
 const CONFIG = {
     // Google Apps Script Web App URL
     // Replace this with your actual deployed web app URL
-    GAS_WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbwxyz123ExampleScript456789/exec',
+    GAS_WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbzVz623jcBaN3H5mPsfnwA-0h53JoxP4yXsx14th0ed_3mclsRImaHwm_9-JcHb1qL5tQ/exec',
     
     // Demo mode - set to true for offline demo without Google Apps Script
     DEMO_MODE: true,
